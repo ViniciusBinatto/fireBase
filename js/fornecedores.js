@@ -24,3 +24,5 @@ function limpar(){
     $("input[name = 'estados']").prop("checked", false);
     $("#nome").focus();
 }
+
+$('.cnpj').mask('00.000.000/0000-00')
